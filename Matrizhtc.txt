@@ -1,0 +1,33 @@
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+		//Define as dimensões (linhas e colunas) da matriz
+		const inteiro TAMANHO = 5
+		//Cria a matriz
+		cadeia  matriz[5][5], valor
+
+
+		para(inteiro i=0; i<=4; i++){
+			escreva("Digite os valores : ", i)
+			leia(matriz[i][0])
+
+			escreva("Digite os valores da : ", i)
+			leia(matriz[i][1])
+
+			escreva("Digite os valores da : ", i)
+			leia(matriz[i][2])
+			
+			escreva("Digite os valores da : ", i)
+			leia(matriz[i][3])
+
+			escreva("Digite os valores da: ", i)
+			leia(matriz[i][4])
+		}
+		
+		
+	}
+}
